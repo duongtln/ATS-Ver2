@@ -1,0 +1,46 @@
+section.fe-academy {
+    position: relative;
+}
+
+#fe-academy-bg {
+    bottom: -50px;
+    right: 0;
+    left: 0;
+    background-image: url("./assets/images/fe-academy.png");
+    margin: auto;
+    background: rgb(255, 255, 255);
+    display: block;
+    z-index: -4;
+    position: absolute;
+}
+
+#title-fe-academy {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+.with-chevron[aria-expanded='true'] i {
+    display: block;
+    transform: rotate(180deg) !important;
+}
+
+.btn-menuOne,
+.btn-menuTwo,
+.btn-menuThree {
+    background-color: #0ca75e !important;
+    font-size: 16px;
+}
+
+.btn-menuOne:hover,
+.btn-menuTwo:hover,
+.btn-menuThree:hover {
+    background-color: #008848c4 !important;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
